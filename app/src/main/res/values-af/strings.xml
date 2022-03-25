@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dönok</string>
+    <string name="app_name_CAPS">DÖNOK</string>
+    <string name="bottomBarInfo">About</string>
+    <string name="bottomBarNast">Settings</string>
+    <string name="bottomBarAdd">Suggest a translation</string>
+    <string name="bottomBarPril">Favourites</string>
+    <string name="bottomBarIsci">Search</string>
+    <string name="testnaBeseda">Test... Clicking on it will remove it from Favourites. To Share the word with friends, long-press it</string>
+    <string name="welcome">Hi!</string>
+<string name="welcomeSporocilo">Thank you for installing Donok!\nFor more more information check out tab \"About\".</string>
+    <string name="bootomBarRand">Random word</string>
+    <string name="infoNaslov">About</string>
+    <string name="avtor">Made by</string>
+    <string name="avtorIme">Damjan Pjević</string>
+    <string name="besedaDnevaTxt">Word of the day</string>
+    <string name="bgColorTxt">Background colour</string>
+    <string name="jezikTxt">Language</string>
+    <string name="izvoziTxt">Export favourites list</string>
+    <string name="uvoziTxt">Imoprt favourites list</string>
+    <string name="steviloPrevodovTxt">Maximum number of Results</string>
+    <string name="opisAppa">Prekmurje dialect - Slovene translator\n\nClicking on the word will save it to Favourites. To Share the word with friends, long-press it.\n\nOriginal dictionary on  pomurski-muzej.si</string>
+    <string name="verzijaApp">version 1.1 (beta)</string>
+    <string name="dodFav">Added to Favourites</string>
+    <string name="minFav">Removed from Favourites</string>
+    <string name="share">Share the word with friends</string>
+    <string name="shareBody">I found an interesting word in Prekmurje dialect</string>
+    <string name="niPrevoda">The translation doesn\'t exists</string>
+    <string name="niInterneta">No internet connection</string>
+    <string name="niPriljubljenih">No favourites</string>
+    <string name="niBranja">There is an error with reading favourites list. Try reseting the app</string>
+    <string name="podnaslov">Prekmurje dialect - Slovene translator</string>
+    <string name="prekmurskaBeseda">Prekmurje dialect word</string>
+    <string name="jezikZE">Selected language already set</string>
+
+</resources>

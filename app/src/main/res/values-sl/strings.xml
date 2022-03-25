@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Dönok</string>
+    <string name="app_name_CAPS">DÖNOK</string>
+    <string name="podnaslov">Prekmursko - Slovenski slovar</string>
+    <string name="prekmurskaBeseda">Prekmurska beseda</string>
+    <string name="bottomBarPril">Priljubljene</string>
+    <string name="testnaBeseda">Testna beseda. S klikom jo odstranite iz priljubljenih. Dolgi klik pa bo jo delil s prijatelji</string>
+    <string name="welcome">Živjo!</string>
+    <string name="welcomeSporocilo">Hvala za namestitev aplikacije!\nZa pomoč si oglejte zavihek \"Več informacij\".</string>
+    <string name="bottomBarAdd">Predlagaj prevod</string>
+    <string name="bottomBarInfo">Več informacij</string>
+    <string name="bottomBarNast">Nastavitve</string>
+    <string name="bootomBarRand">Naključna beseda</string>
+    <string name="bottomBarIsci">Išči</string>
+    <string name="infoNaslov">O aplikaciji</string>
+    <string name="avtor">Avtor</string>
+    <string name="avtorIme">Damjan Pjević</string>
+    <string name="opisAppa">Prekmursko - Slovenski slovar\n\nS klikom na besedo, jo shrnaite med priljubljene. Z dolgim klikom pa jo lahko delite med prijatelje.\n\nPovzeto iz  pomurski-muzej.si</string>
+    <string name="verzijaApp">verzija 1.1 (beta)</string>
+    <string name="dodFav">Dodano med priljubljene</string>
+    <string name="minFav">Odstranjeno iz priljubljenih</string>
+    <string name="share">Deli besedo s prijatelji</string>
+    <string name="shareBody">Našel sem zanimivo Prekmursko besedo!\nA veš kaj pomeni</string>
+    <string name="niPrevoda">Prevod ne obstaja</string>
+    <string name="niInterneta">Ni internetne povezave</string>
+    <string name="niPriljubljenih">Ni priljubljenih besed</string>
+    <string name="niBranja">Prišlo je do napake pri branju priljubljenih. Poskusite resetirat aplikacijo</string>
+     <string name="steviloPrevodovTxt">Število rezultatov</string>
+    <string name="besedaDnevaTxt">Beseda dneva</string>
+    <string name="bgColorTxt">Barva ozadja</string>
+    <string name="jezikTxt">Jezik</string>
+    <string name="izvoziTxt">Izvozi seznam priljubljenih</string>
+    <string name="uvoziTxt">Uvozi seznam priljubljenih</string>
+    <string name="jezikZE">Izbran jezik je že nastavljen</string>
+
+</resources>

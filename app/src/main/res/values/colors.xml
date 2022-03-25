@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- zelene -->
+    <color name="colorPrimary">#5FB23D</color>
+    <color name="colorPrimaryDark">#447F2C</color>
+    <color name="colorAccent">#5FB23D</color>
+
+    <!-- podobne zelenan ampak malo drugacne -->
+    <color name="oranzna">#CC6C40</color>
+    <color name="plava">#8288FF</color>
+
+    <!-- od crne do bele -->
+    <color name="svetlozelena">#DEFFBE</color>
+    <color name="hint_siva">#7F7F7F</color>
+    <color name="temno_siva">#404040</color>
+    <color name="crna">#000000</color>
+</resources>

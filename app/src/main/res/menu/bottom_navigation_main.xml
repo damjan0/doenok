@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+<!--
+    <item
+        android:id="@+id/bottom_one"
+        android:gravity="center|left"
+        android:enabled="true"
+        android:icon="@drawable/ic_plus_white"
+        android:title="@string/bottomBarNast"
+        app:showAsAction="always"     />
+-->
+    <!--
+        <item
+            android:id="@+id/bottom_zero"
+            android:gravity="center|left"
+            android:enabled="true"
+            android:icon="@drawable/ic_search_white"
+            android:title="@string/bottomBarIsci"
+            app:showAsAction="always"      />
+        -->
+
+    <item
+        android:id="@+id/bottom_four"
+        android:gravity="center|left"
+        android:enabled="true"
+        android:icon="@drawable/ic_random_word"
+        android:title="@string/bootomBarRand"
+        app:showAsAction="always"      />
+
+    <item
+        android:id="@+id/bottom_two"
+        android:gravity="center|left"
+        android:enabled="true"
+        android:icon="@drawable/ic_star_full_white"
+        android:title="@string/bottomBarPril"
+        app:showAsAction="always"      />
+
+
+    <!--
+        <item
+            android:id="@+id/bottom_three"
+            android:gravity="center|left"
+            android:enabled="true"
+            android:title="@string/bottomBarInfo"
+            android:icon="@drawable/ic_info_white"
+            app:showAsAction="always"      />
+        -->
+
+</menu>

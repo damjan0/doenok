@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Priljubljene"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/naslovInfo"
+        android:text="@string/infoNaslov"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        />
+
+<!--if need be scrollable
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/naslovPril">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/naslovInfo"
+            android:id="@+id/tekstInfo"
+            android:textColor="@color/crna"
+            android:text="@string/opisAppa"
+            android:textSize="15dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:id="@+id/avtor"
+            android:layout_below="@id/tekstInfo"
+            android:text="@string/avtor"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="16dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/oAvtoru"
+            android:layout_below="@id/avtor"
+            android:text="@string/avtorIme"
+            android:textColor="@color/crna"
+            android:textSize="18dp"
+            android:layout_marginBottom="1dp"
+            />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/slikaPoste"
+                android:layout_toRightOf="@id/oAvtoru"
+                android:layout_below="@id/avtor"
+                android:src="@drawable/ic_email"
+                android:layout_marginLeft="34dp"
+                android:clickable="true"
+                />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="240dp"
+            android:layout_below="@id/oAvtoru"
+            >
+            <!-- 1280(w)x1024(h)-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/slikaAppa"
+                android:src="@drawable/ic_slika_appa"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/version"
+            android:textColor="@color/temno_siva"
+            android:layout_marginBottom="5dp"
+            android:textSize="12dp"
+            android:text="@string/verzijaApp"
+            />
+<!--
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tekstInfota"
+            android:layout_below="@id/naslovInfo"
+            android:text="@string/informacije"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_star_full"
+            android:layout_below="@id/tekstInfota"/>
+-->
+<!--
+    </RelativeLayout>
+    </ScrollView>
+-->
+</RelativeLayout>

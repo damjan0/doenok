@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+        <string name="app_name">Dönok</string>
+        <string name="app_name_CAPS">DÖNOK</string>
+        <string name="podnaslov">Prekmursko - Slovenski slovar</string>
+        <string name="prekmurskaBeseda">Prekmurska beseda</string>
+        <string name="bottomBarPril">Prilüblene</string>
+        <string name="bottomBarAdd">Predlagaj </string>
+        <string name="bottomBarInfo">Več informacij</string>
+        <string name="bottomBarNast">Nastavitve</string>
+        <string name="bottomBarIsci">Išči</string>
+        <string name="testnaBeseda">Testna beseda. S klikon jo odstranite iz priljübljenih. Dugi klik pa de jo dejlo s pajdaši</string>
+        <string name="welcome">Zdravo!</string>
+        <string name="welcomeSporocilo">Fala ka ste si naložili aplikacijo!\nZa pumauč si poglednite zavihek \"Več informacij\".</string>
+        <string name="bootomBarRand">Naključna beseda</string>
+
+        <!-- INFO tab stringi -->
+        <string name="infoNaslov">O aplikaciji</string>
+        <string name="avtor">Napravo</string>
+        <string name="avtorIme">Damjan Pjević</string>
+        <!--Aplikacija omogoča prevajanje Prekmurskih besed-->
+        <string name="opisAppa">Prekmursko - Slovenski slovar\n\nČi kliknete na besedo, se de shranila med prilüblene. Z dugin klikom pa jo lejko delite s pajdaši.\n\nPovzeto po  pomurski-muzej.si</string>
+        <string name="verzijaApp">verzija 1.1 (beta)</string>
+
+        <!-- toasti za delo s priljubljenimi -->
+        <string name="dodFav">Dodano med prilüblene</string>
+        <string name="minFav">Odstranjeno iz prilüblenih</string>
+
+        <!-- SHARE stringi -->
+        <string name="share">Dejli besedo s pajdaši</string>
+        <string name="shareBody">Najšo san zanimivo Prekmursko besedo!\nA znaš ka pomejni</string>
+
+        <!-- ERROR sporocila -->
+        <string name="niPrevoda">Prevod ne obstaja</string>
+        <string name="niInterneta">Nega interneta</string>
+        <string name="niPriljubljenih">Nej si še niti eno besedo shrano</string>
+        <string name="niBranja">Prišlo je do napake pri čitanji priljubljenih. Probajte resetejrati aplikacijo</string>
+
+        <!-- NASTAVITVE tab stringi   coming soon in version 1.5 release date: TBA-->
+        <string name="steviloPrevodovTxt">Kelko rezultatov naj pokaže</string>
+        <string name="besedaDnevaTxt">Beseda gnješnoga dneva</string>
+        <string name="bgColorTxt">Barva ozadja</string>
+        <string name="jezikTxt">Jezik</string>
+        <string name="izvoziTxt">Izvozi seznam priljubljenih</string>
+        <string name="uvoziTxt">Uvozi seznam priljubljenih</string>
+        <string name="jezikZE">Te jezik je že nastavleni</string>
+
+</resources>

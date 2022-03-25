@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".Nastavitve"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="15dp"
+    android:layout_marginRight="15dp"
+    android:layout_marginBottom="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/naslovNastav"
+        android:text="@string/bottomBarNast"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/steviloPrevodovText"
+        android:layout_below="@id/naslovNastav"
+        android:text="@string/steviloPrevodovTxt"
+        android:textSize="15dp"
+        android:textColor="@color/crna"
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="15dp"
+        />
+
+    <Button
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_below="@id/steviloPrevodovText"
+        android:background="@drawable/custom_edittext"
+        android:textColor="@color/temno_siva"/>
+
+<!--
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/besedaDnevaText"
+        android:layout_below="@id/spinner"
+        android:text="@string/besedaDnevaTxt"
+        android:textColor="@color/crna"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="6dp"
+        />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/switch1"
+        android:layout_below="@id/besedaDnevaText"/>
+-->
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/jezikText"
+        android:layout_below="@id/spinner"
+        android:text="@string/jezikTxt"
+        android:textColor="@color/crna"
+        android:textSize="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="6dp"
+        />
+
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/jezikText"
+        android:id="@+id/prviJezik"
+        android:src="@drawable/slo"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:layout_marginRight="5dp"
+        />
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/jezikText"
+        android:layout_toRightOf="@id/prviJezik"
+        android:id="@+id/drugiJezik"
+        android:src="@drawable/eng"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:layout_marginRight="5dp"
+        />
+    <ImageButton
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/jezikText"
+        android:layout_toRightOf="@id/drugiJezik"
+        android:id="@+id/tretjiJezik"
+        android:src="@drawable/prek"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        />
+
+
+</RelativeLayout>

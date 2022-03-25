@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <!-- prevajanje -->
+    <RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="70dp"
+        >
+        <!-- iskanje -->
+        <!-- iskanje android:height="45dp" android:width="55dp  ikone-->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/iskanaBeseda"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="12dp"
+            android:background="@drawable/custom_edittext"
+            android:textColor="@color/temno_siva"
+
+            android:hint="@string/prekmurskaBeseda"
+            android:inputType="text"
+            android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZčČšŠžŽđĐćĆöÖüÜ "
+            android:maxLines="1"
+            android:singleLine="true"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/errSporocilo"
+            android:layout_below="@id/iskanaBeseda"
+            android:text="@string/niPriljubljenih"
+            android:textColor="@color/plava"
+            android:textSize="15dp"
+            android:layout_marginTop="5dp"
+
+            android:layout_marginRight="30dp"
+            android:gravity="right|center"
+            android:visibility="invisible"
+            />
+        <!--
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/prevod"
+                        android:layout_below="@id/iskanaBeseda"
+                        android:text="vsi prevodi"
+                        android:layout_marginLeft="50dp"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginRight="50dp"
+                        />
+        -->
+
+     <!-- objemi v srolllayout za skoralanje if more than 6-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/layoutVsehBesed"
+                android:layout_below="@id/iskanaBeseda">
+
+            </LinearLayout>
+
+    </RelativeLayout>
+
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="11dp"
+        android:paddingRight="11dp"
+        android:windowSoftInputMode="stateAlwaysHidden|adjustPan"
+
+        app:itemBackground="@color/colorPrimary"
+        app:itemIconTint="@drawable/item_color_state"
+        app:itemTextColor="@drawable/item_color_state"
+        app:menu="@menu/bottom_navigation_main"
+        ></android.support.design.widget.BottomNavigationView
+        >
+
+</RelativeLayout>
